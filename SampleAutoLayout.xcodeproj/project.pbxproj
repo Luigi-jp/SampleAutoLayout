@@ -16,6 +16,8 @@
 		2A6F8B7226E50008006B340D /* Image.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6F8B7126E50008006B340D /* Image.storyboard */; };
 		2A6F8B7526E51399006B340D /* Vertical.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6F8B7426E51399006B340D /* Vertical.storyboard */; };
 		2A6F8B7726E5226A006B340D /* Horizontal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6F8B7626E5226A006B340D /* Horizontal.storyboard */; };
+		2A6F8B7926E52419006B340D /* VerticalWithStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6F8B7826E52419006B340D /* VerticalWithStackView.storyboard */; };
+		2A6F8B7B26E5326B006B340D /* HorizontalWithStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6F8B7A26E5326B006B340D /* HorizontalWithStackView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		2A6F8B7126E50008006B340D /* Image.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Image.storyboard; sourceTree = "<group>"; };
 		2A6F8B7426E51399006B340D /* Vertical.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vertical.storyboard; sourceTree = "<group>"; };
 		2A6F8B7626E5226A006B340D /* Horizontal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Horizontal.storyboard; sourceTree = "<group>"; };
+		2A6F8B7826E52419006B340D /* VerticalWithStackView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VerticalWithStackView.storyboard; sourceTree = "<group>"; };
+		2A6F8B7A26E5326B006B340D /* HorizontalWithStackView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HorizontalWithStackView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				2A6F8B7426E51399006B340D /* Vertical.storyboard */,
+				2A6F8B7826E52419006B340D /* VerticalWithStackView.storyboard */,
 				2A6F8B7626E5226A006B340D /* Horizontal.storyboard */,
+				2A6F8B7A26E5326B006B340D /* HorizontalWithStackView.storyboard */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -157,8 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A6F8B7B26E5326B006B340D /* HorizontalWithStackView.storyboard in Resources */,
 				2A6F8B6826E4F784006B340D /* LaunchScreen.storyboard in Resources */,
 				2A6F8B7226E50008006B340D /* Image.storyboard in Resources */,
+				2A6F8B7926E52419006B340D /* VerticalWithStackView.storyboard in Resources */,
 				2A6F8B7526E51399006B340D /* Vertical.storyboard in Resources */,
 				2A6F8B6526E4F784006B340D /* Assets.xcassets in Resources */,
 				2A6F8B7726E5226A006B340D /* Horizontal.storyboard in Resources */,
